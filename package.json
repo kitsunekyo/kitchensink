@@ -1,0 +1,9 @@
+{
+  "name": "kitchensink",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "packages/*"
+  ]
+}

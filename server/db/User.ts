@@ -1,11 +1,5 @@
+import { User } from "@kitchensink/api-types";
 import mongoose from "mongoose";
-
-export interface User {
-  _id: string;
-  name: string;
-  email: string;
-  picture: string;
-}
 
 const userSchema = new mongoose.Schema({
   name: String,

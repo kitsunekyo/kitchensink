@@ -1,10 +1,11 @@
+import { User } from "@kitchensink/api-types";
 import { useEffect, useState } from "react";
 
 import { api, FetchError } from "./api";
 import { LoginButton } from "./LoginButton";
 import { LogoutButton } from "./LogoutButton";
 import { useAppDispatch, useAppSelector } from "./store";
-import { logout, setUser, User } from "./userSlice";
+import { logout, setUser } from "./userSlice";
 
 async function getUser() {
   return await api("/me");

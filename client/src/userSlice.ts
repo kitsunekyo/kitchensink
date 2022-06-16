@@ -1,11 +1,5 @@
+import { User } from "@kitchensink/api-types";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-export interface User {
-  _id: string;
-  name: string;
-  email: string;
-  picture: string;
-}
 
 export interface UserState {
   value: User | null;

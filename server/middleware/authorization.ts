@@ -1,8 +1,7 @@
+import { User } from "@kitchensink/api-types";
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import mongoose from "mongoose";
-
-import { User } from "../db/User";
 
 export interface CustomRequest extends Request {
   user?: User;

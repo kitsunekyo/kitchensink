@@ -1,4 +1,6 @@
 # kitchensink app
+- oauth2 login with id_token handover
+- yarn workspaces to share `api-types`
 
 ## local development
 - create and configure your oauth app in the google cloud console
